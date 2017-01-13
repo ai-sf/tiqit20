@@ -1,0 +1,78 @@
+info: "The Trento-Innsbruck Quantum Italian Tour will be held in march. During the Programme, 40 students will be visiting the University of Trento, Innsbruck and their related laboratories. Participants will meet in Trento and will spend here the first day between talks, laboratory visits and coffee breaks. The next day move to the city of Innsbruck by coach where we'll stay 2 days and then return to Trento. The event will have a focus on Bose-Einstein Condensation, Nanooscience, Quantum
+Optics and Quantum Information. The language of the talks will be english.</p><p> The complete event programme is below"
+
+last_update: 12/01/17
+
+schedule:
+  - day: Wednesday
+    date: "01/03"
+    short_descr: Trento part 
+    activity:
+      - hour: "11:00"
+        descr: "BEC Talks"
+      - hour: "12:40"
+        descr: "Visit BEC Laboratory"
+      - hour: "13:30"
+        descr: "Lunch in University organised by a catering"
+      - hour: "15:00"
+        descr: "Nanoscience Talks"
+      - hour: "16:40"
+        descr: "Visit Nanoscience Laboratory"
+      - hour: "20:00 "
+        descr: "Dinner at Pedavena and free night"
+
+  - day: Thursday
+    date: "02/03"
+    short_descr: "Let s go to Innsbruck"
+    activity:
+      - hour: "6:00"
+        descr: "Departure from Trento"
+      - hour: "08:30"
+        descr: "Arrival in Innsbruck"
+      - hour: "09:30"
+        descr: "Arrival at IQOQI"
+      - hour: "10:00"
+        descr: "Talks"
+      - hour: "13:00"
+        descr: "Lunch at TechCafè"
+      - hour: "14:00"
+        descr: "Talks with coffee break"
+      - hour: "15:30 - 18:30"
+        descr: "Laboratories visit"
+      - hour: "19:00"
+        descr: "Check in at the hostel"
+      - hour: "20:15"
+        descr: "Dinner at Stiftskeller and free night"
+
+
+  - day: Friday
+    date: "03/03"
+    short_descr: Another day in Innsbruck
+    activity:
+      - hour: "07:30"
+        descr: "Wake up and breakfasts"
+      - hour: "8:30"
+        descr: "leaving the hostel head to the University"
+      - hour: "9:00"
+        descr: "arrival at University"
+      - hour: "9:30"
+        descr: "Visit to the University of Innsbruck"
+      - hour: "13:00"
+        descr: "lunch with Innsbruck Students"
+      - hour: "19:00"
+        descr: "Returning to Trento"
+  
+few_info:
+  info: ""
+  specs:
+    - text: "In order to enroll to the event you must be an AISF member."
+    - text: "We expect to select 40 students, of whom main part from Trento"
+    - text: "Participation fees are fixed at €20 for each applicant. Such fee will cover the cost of accommodation in Innsbruck, the travel from Trento to Innsbruck and return, dinner at Innsbruck. Please notice that participation fees <b>do not cover</b> the following:"
+      subpoints:
+        - text: "Pedevena dinner, Breakfasts"
+        - text: "Insurance"
+        - text: "Meals other than those officially offered in the Programme. When useful, the Organising Committee
+      will always suggest places to eat."
+    - text: "Note: if you are Italian and you are not an AISF member yet you can become an AISF member while registering for this event."
+    - text: "Please note that unfortunately we are not able to provide scholarships and/or bursaries for any students at this time."
+    

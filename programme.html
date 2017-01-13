@@ -1,0 +1,81 @@
+---
+layout: page
+title: Programme
+---
+
+<div class="section">
+  <h2>General Info</h2>
+  <p>
+    {{ site.data.programme.info }}
+  </p>
+</div>
+
+<div class="section">
+  <h2>Schedule</h2>
+
+  <div class="row">
+    <div class="col s12">
+      <ul class="collapsible popout" data-collapsible="accordion">
+      {% for item in site.data.programme.schedule %}
+        <li>
+          <div class="collapsible-header">
+            <div class="center">
+              {{ item.date }} - {{ item.day }}
+            </div>
+          </div>
+          <div class="collapsible-body">
+            <table class="centered striped">
+              <tbody>
+                <tr>
+                  <td colspan="2">{{ item.short_descr }}</td>
+                </tr>
+              {% for act in item.activity %}
+                <tr>
+                  <td>{{ act.hour }}</td>
+                  <td>{{ act.descr }}</td>
+                </tr>
+              {% endfor %}
+              </tbody>
+            </table>
+          </div>
+        </li>
+      {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <h2>A few points to note</h2>
+  <p>{{ site.data.programme.few_info.info }}<p>
+  <div class="collection">
+  {% for item in site.data.programme.few_info.specs %}
+    <a
+      {% if item.url contains "http://" %}
+         href="{{ item.url }}"
+      {% else %}
+         href="{{ site.url }}/{{ item.url }}"
+      {% endif %}
+      class="collection-item black-text">
+      {{ item.text }}
+      {% if item.url != "#!" %}
+        <span class="badge custom1 white-text">{{ item.button }}</span>
+      {% endif %}
+    </a>
+    {% for item2 in item.subpoints %}
+      <a
+        {% if item2.url contains "http://" %}
+           href="{{ item2.url }}"
+        {% else %}
+           href="{{ site.url }}/{{ item2.url }}"
+        {% endif %}
+        class="collection-item black-text custom1 lighten-5">
+        {{ item2.text }}
+        {% if item.url != "#!" %}
+          <span class="badge custom1 white-text">{{ item2.button }}</span>
+        {% endif %}
+      </a>
+    {% endfor %}
+  {% endfor %}
+  </div>
+</div>

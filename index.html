@@ -1,0 +1,67 @@
+---
+layout: default
+---
+{% include banner.html %}
+
+<div class="no-pad-top" id="index-page">
+  <div class="container">
+
+    <!--   Icon Section   -->
+    <div class="section">
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center"><i class="medium material-icons custom1-text">supervisor_account</i></h2>
+            <h2 class="center">Who</h2>
+            <p class="light">{{ site.data.home.who }}</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center"><i class="medium material-icons custom1-text">today</i></h2>
+            <h2 class="center">When</h2>
+            <p class="light">{{ site.data.home.when }}</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center"><i class="medium material-icons custom1-text">location_on</i></h2>
+            <h2 class="center">Where</h2>
+            <p class="light">{{ site.data.home.where }}</p>
+          </div>
+        </div>
+      </div>
+
+    <!-- slideshow -->
+    <div class="section">
+      <div class="slider" id="foto-eventi">
+        <ul class="slides">
+          {% for slide in site.data.home.slideshow %}
+            <li>
+              <img src="{{ site.url }}/{{ slide.img }}" alt="{{ slide.alt }}">
+              <div class="caption left-align">
+                <h4>{{ slide.title }}</h4>
+                <p class="light grey-text text-lighten-3">{{ slide.text }}</p>
+              </div>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+
+    <!-- paragraph -->
+    <div class="section">
+      <div class="row">
+        <div class="col s8 offset-s2">
+          <div class="icon-block">
+            <h3 class="center"><i class="medium material-icons custom1-text">send</i></h2>
+            <p class="center light">{{ site.data.home.paragraph }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>

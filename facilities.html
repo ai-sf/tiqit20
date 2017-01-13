@@ -1,0 +1,74 @@
+---
+layout: page
+title: Facilities
+---
+
+<p>
+  {{ site.data.facilities.intro }}
+</p>
+
+<div class="section">
+  <h2>The Facilities</h2>
+
+  {% for item in site.data.facilities.science %}
+    {% assign col = forloop.index0 | modulo:2 %}
+    {% if col == 0 %}
+      <div class="row">
+    {% endif %}
+      <div class="col s12 m6">
+        <div class="card">
+          <div class="card-image">
+    	       <img src="{{ site.url}}/{{ item.img }}">
+          </div>
+          <div class="card-content">
+    	       <span class="card-title grey-text text-darken-4">{{ item.title }}</span>
+    	       <p>
+               <small>
+                 {{ item.descr }}
+               </small>
+             </p>
+          </div>
+        	<div class="card-action">
+        	  <a href="{{ item.site }}">Sito</a>
+        	  <a href="{{ item.map }}">Map</a>
+        	</div>
+        </div>
+      </div>
+    {% if col == 1 %}
+    </div>
+    {% endif %}
+  {% endfor %}
+</div>
+
+<div class="section">
+  <h2>Accomodation</h2>
+
+  {% for item in site.data.facilities.accomodation %}
+    {% assign col = forloop.index0 | modulo:2 %}
+    {% if col == 0 %}
+      <div class="row">
+    {% endif %}
+      <div class="col s12 m6">
+        <div class="card">
+          <!-- <div class="card-image">
+    	       <img src="{{ site.url}}/{{ item.img }}">
+          </div> -->
+          <div class="card-content">
+    	       <span class="card-title grey-text text-darken-4">{{ item.title }}</span>
+    	       <p>
+               <small>
+                 {{ item.descr }}
+               </small>
+             </p>
+          </div>
+        	<div class="card-action">
+        	  <a href="{{ item.site }}">Sito</a>
+        	  <a href="{{ item.map }}">Map</a>
+        	</div>
+        </div>
+      </div>
+    {% if col == 1 %}
+    </div>
+    {% endif %}
+  {% endfor %}
+</div>
