@@ -10,10 +10,9 @@ slideshow:
   - img: img/innsbruck.jpg
     alt: Innsbruck
     title: Innsbruck
-  - img: img/GSSI_home.jpg
-    alt: Gran Sasso Science Institute
-    title: GSSI
-    text: Gran Sasso Science Institute
+  - img: img/trento.jpg
+    alt: Trento
+    title: Trento
   - img: img/LNF_home.jpg
     alt: Italian National Agency for Nuclear Physics
     title: LNF
