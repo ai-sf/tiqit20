@@ -7,10 +7,9 @@ when: "Between the 1th and the 3th of March 2017."
 where: "In north Italy and Austria. Students will meet in Trento and visit the University of Trento. On the second day, they will move to Innsbruck to visit the Innsbruck University and the Institute for Quantum Optics and Quantum Information"
 
 slideshow:
-  - img: img/LNGS_home.jpg
-    alt: Gran Sasso National Laboratories
-    title: LNGS
-    text: Gran Sasso National Laboratories
+  - img: img/innsbruck.jpg
+    alt: Innsbruck
+    title: Innsbruck
   - img: img/GSSI_home.jpg
     alt: Gran Sasso Science Institute
     title: GSSI

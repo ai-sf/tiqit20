@@ -16,7 +16,7 @@ accomodation:
     map:
 
 science:
-  - img: img/facilities/1.jpg
+  - img: img/facilities/trento.jpg
     title: University of Trento
     descr: "description"
     site: http://www.physics.unitn.it/en
@@ -28,7 +28,7 @@ science:
     site: https://www.uibk.ac.at/sp-physik/
     map:
 
-  - img: img/facilities/2.jpg
+  - img: img/facilities/IQOQI.jpg
     title: IQOQI
     descr: "description"
     site: https://iqoqi.at/en/
