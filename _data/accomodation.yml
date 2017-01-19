@@ -4,23 +4,26 @@ The Innsbruck Physics Research Center conducts many researches a broad range of 
 <br><br>
 The Institute for Quantum Optics and Quantum Information (IQOQI) of the Austrian Academy of Sciences dedicates its work to theoretical and experimental basic research in the areas of quantum optics and quantum information science. Internationality, worldwide networking and highly actual research topics characterize the institute's work. A particular concern of the institute is the sustainable advancement of young academics, and together with the University of Innsbruck, their integration into the research and teaching program."
 
-
-
 science:
-  - img: img/facilities/trento.jpg
-    title: University of Trento
-    descr: "description"
-    site: http://www.physics.unitn.it/en
+  - img: img/accomodation/innhost.jpg
+    title: Youth Hostel Innsbruck
+    descr: Overnight stay in Innsbruck is organized here
+    site: http://www.youth-hostel-innsbruck.at/english/index.html
     map:
 
-  - img: img/facilities/1.jpg
-    title: University of Innsbruck
-    descr: "description"
-    site: https://www.uibk.ac.at/sp-physik/
+  - img: img/accomodation/stiftskeller_image.jpg
+    title: Stiftskeller
+    descr: Dinner in innsbruck is organized here
+    site: http://www.stiftskeller.eu/aktuelles-aus-dem-stiftskeller.html
+    map:
+  - img: img/accomodation/ped.jpg
+    title: Pedavena
+    descr: Dinner in Trento is organized here
+    site: http://www.stiftskeller.eu/aktuelles-aus-dem-stiftskeller.html
+    map:
+  - img: img/accomodation/trhost.jpg
+    title: Ostello giovane Europa
+    descr: Dinner in innsbruck is organized here
+    site: http://www.stiftskeller.eu/aktuelles-aus-dem-stiftskeller.html
     map:
 
-  - img: img/facilities/IQOQI.jpg
-    title: IQOQI
-    descr: "description"
-    site: https://iqoqi.at/en/
-    map:
