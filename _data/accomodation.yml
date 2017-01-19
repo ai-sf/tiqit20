@@ -9,21 +9,22 @@ science:
     title: Youth Hostel Innsbruck
     descr: Overnight stay in Innsbruck is organized here
     site: http://www.youth-hostel-innsbruck.at/english/index.html
-    map:
+    map: https://www.google.it/maps/place/Jugendherberge+Innsbruck/@47.2742939,11.3922326,13z/data=!4m8!1m2!2m1!1sYouth+Hostel+Innsbruck!3m4!1s0x479d6eb45367fdcd:0x6d010ab26701025f!8m2!3d47.2742939!4d11.4272515
 
   - img: img/accomodation/stiftskeller_image.jpg
     title: Stiftskeller
     descr: Dinner in innsbruck is organized here
     site: http://www.stiftskeller.eu/aktuelles-aus-dem-stiftskeller.html
-    map:
+    map: https://www.google.it/maps/place/Stiftskeller/@47.2683578,11.3925644,17z/data=!3m1!4b1!4m5!3m4!1s0x479d6bfb932692fd:0xb03f252a2a0f3f01!8m2!3d47.2683542!4d11.3947531
+    
   - img: img/accomodation/ped.jpg
     title: Pedavena
     descr: Dinner in Trento is organized here
-    site: http://www.stiftskeller.eu/aktuelles-aus-dem-stiftskeller.html
-    map:
+    site: http://www.birreriapedavena.com/
+    map: https://www.google.it/maps/place/Birreria+Pedavena/@46.0646565,11.1212445,17z/data=!3m1!4b1!4m5!3m4!1s0x478276b35031ba23:0x623b5275160effec!8m2!3d46.0646528!4d11.1234332
   - img: img/accomodation/trhost.jpg
     title: Ostello giovane Europa
-    descr: Dinner in innsbruck is organized here
-    site: http://www.stiftskeller.eu/aktuelles-aus-dem-stiftskeller.html
-    map:
+    descr: Recommended Hostel for people not from Trento
+    site: http://www.gayaproject.it/giovane-europa.html
+    map: https://www.google.it/maps/place/Ostello+Giovane+Europa/@46.0701517,11.1169843,17z/data=!3m1!4b1!4m5!3m4!1s0x4782714a06f7cc5b:0xe6a654998da8fc81!8m2!3d46.070148!4d11.119173
 

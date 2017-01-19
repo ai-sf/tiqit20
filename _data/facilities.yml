@@ -1,4 +1,4 @@
-intro: "The University of Trento is a recent, medium-sized university: the Department of Physics was established in 2012 after its researchers had been engaged in many key sectors. DUring this event the University will host talks focused on the research performed in Trento about Bose-Einstein condensation and Nanosciense.
+intro: "The University of Trento is a recent, medium-sized university: the Department of Physics was established in 2012 after its researchers had been engaged in many key sectors. During this event the University will host talks focused on the research performed in Trento about Bose-Einstein condensation and Nanosciense.
 <br><br>
 The Innsbruck Physics Research Center conducts many researches a broad range of modern topics in physics. The Center is organized along three main research areas: Astro- and Astroparticle Physics, Ion- and Applied Physics, and Quantum Physics. The Center cooperates with many research institutions worldwide and provides a truly international environment for researchers from all over the world.
 <br><br>
@@ -9,18 +9,18 @@ The Institute for Quantum Optics and Quantum Information (IQOQI) of the Austrian
 science:
   - img: img/facilities/trento.jpg
     title: University of Trento
-    descr: "description"
+    descr: "The University of Trento is a recent, medium-sized university: the Department of Physics was established in 2012 after its researchers had been engaged in many key sectors. During this event the University will host talks focused on the research performed in Trento about Bose-Einstein condensation and Nanosciense"
     site: http://www.physics.unitn.it/en
-    map:
+    map: https://www.google.it/maps/place/Univerit%C3%A0+degli+Studi+di+Trento+-+Dipartimento+di+Fisica/@46.0656159,11.148685,17z/data=!3m1!4b1!4m5!3m4!1s0x4782769503350cd5:0xa557831d5cbc7740!8m2!3d46.0656122!4d11.1508737
 
   - img: img/facilities/1.jpg
-    title: University of Innsbruck
-    descr: "description"
+    title: The Innsbruck Physics Research Center 
+    descr: "The Innsbruck Physics Research Center conducts many researches a broad range of modern topics in physics. The Center is organized along three main research areas: Astro- and Astroparticle Physics, Ion- and Applied Physics, and Quantum Physics. The Center cooperates with many research institutions worldwide and provides a truly international environment for researchers from all over the world. "
     site: https://www.uibk.ac.at/sp-physik/
-    map:
+    map: https://www.google.it/maps/place/Technikerstra%C3%9Fe+25,+6020+Innsbruck,+Austria/@47.2650023,11.3409642,17z/data=!3m1!4b1!4m5!3m4!1s0x479d6b73fe395b3b:0x1243e7c276a525fa!8m2!3d47.2649991!4d11.3428721
 
   - img: img/facilities/IQOQI.jpg
     title: IQOQI
-    descr: "description"
+    descr: "The Institute for Quantum Optics and Quantum Information (IQOQI) of the Austrian Academy of Sciences dedicates its work to theoretical and experimental basic research in the areas of quantum optics and quantum information science. Internationality, worldwide networking and highly actual research topics characterize the institute's work. A particular concern of the institute is the sustainable advancement of young academics, and together with the University of Innsbruck, their integration into the research and teaching program."
     site: https://iqoqi.at/en/
-    map:
+    map: https://www.google.it/maps/place/IQOQI+-+Innsbruck/@47.2636136,11.3436033,17z/data=!3m1!4b1!4m5!3m4!1s0x479d6b75b4421ff9:0x8e255220c56f4ca1!8m2!3d47.26361!4d11.345792

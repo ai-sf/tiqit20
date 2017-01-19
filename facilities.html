@@ -3,12 +3,7 @@ layout: page
 title: Facilities
 ---
 
-<p>
-  {{ site.data.facilities.intro }}
-</p>
-
 <div class="section">
-  <h2>The Facilities</h2>
 
   {% for item in site.data.facilities.science %}
     {% assign col = forloop.index0 | modulo:2 %}

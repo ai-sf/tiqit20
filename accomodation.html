@@ -3,13 +3,7 @@ layout: page
 title: Accomodation
 ---
 
-<p>
-  {{ site.data.accomodation.intro }}
-</p>
-
 <div class="section">
-  <h2>The Accomodation</h2>
-
   {% for item in site.data.accomodation.science %}
     {% assign col = forloop.index0 | modulo:2 %}
     {% if col == 0 %}

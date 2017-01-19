@@ -1,4 +1,5 @@
-info: "The Trento-Innsbruck Quantum Information Tour will be held from the 1st to the 3rd of march. The event will start in Trento with the visit to the university and the BEC and nanosciences labs. The next day participants will meet at the bus station in order to take the bus to Innsbruck for the IQOQI visit. At the end of the day we will stay in an hostel in Innsbruck center for the night and the following day there will be the visit to the Innsbruck university, at the end of which is organized a lunch and then the return to Trento always by bus. The event will have a focus on Bose-Einstein Condensation, Nanooscience, Quantum
+info: "The Trento-Innsbruck Quantum Information Tour will be held from the 1st to the 3rd of march. The event will start in Trento with the visit to the university and the BEC and nanosciences labs. The next day participants will meet at the bus station in order to take the bus to Innsbruck for the IQOQI visit. At the end of the day we will stay in an hostel in Innsbruck center for the night and the following day there will be the visit to the Innsbruck university, at the end of which is organized a lunch and then the return to Trento always by bus.
+ The event will have a focus on Bose-Einstein Condensation, Nanooscience, Quantum
 Optics and Quantum Information. The language of the talks will be english.</p><p> The complete event programme is below"
 
 last_update: 12/01/17
@@ -10,15 +11,13 @@ schedule:
     activity:
       - hour: "11:00"
         descr: "BEC Talks"
-      - hour: "12:40"
-        descr: "Visit BEC Laboratory"
-      - hour: "13:30"
-        descr: "Lunch in University organised by a catering"
-      - hour: "15:00"
+      - hour: "13:00"
+        descr: "Catering lunch in University"
+      - hour: "14:00"
         descr: "Nanoscience Talks"
-      - hour: "16:40"
-        descr: "Visit Nanoscience Laboratory"
-      - hour: "20:00 "
+      - hour: "16:00-17:20"
+        descr: "Laboratories visit"
+      - hour: "20:30 "
         descr: "Dinner at Pedavena and free night"
 
   - day: Thursday
