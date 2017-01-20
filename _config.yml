@@ -1,6 +1,6 @@
 # Site settings
-# title: "Acr Ev"
-# description: "nome evento completo"
+title: "Tiqit"
+description: "Tiqit"
 url: "https://kante95.github.io"
 destination: ../site/
 locale: "it"
