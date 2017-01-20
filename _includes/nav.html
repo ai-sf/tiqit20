@@ -25,7 +25,7 @@
             <li>
                 <a 
                    {% if item.url contains "http://" %}
-                      href="{{ item.url }}"
+                      href="{{ item.url }}" target="_blank"
                    {% else %}
                       href="{{ site.url }}/{{ item.url }}"
                    {% endif %}
@@ -63,7 +63,7 @@
                 {% else %}
                 <li><a 
                    {% if item.url contains "http://" %}
-                      href="{{ item.url }}"
+                      href="{{ item.url }}" target="_blank"
                    {% else %}
                       href="{{ site.url }}/{{ item.url }}"
                    {% endif %}

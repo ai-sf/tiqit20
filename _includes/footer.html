@@ -9,6 +9,7 @@
         <h5 class="white-text">Contact</h5>
         <ul>
         {% for item in site.data.footer.contact %}
+          <li>{{ item.name }}</li>
       	  <li><a class="white-text" href="mailto:{{ item.mail }}">{{ item.mail }}</a></li>
         {% endfor %}
         </ul>
@@ -18,7 +19,7 @@
         <ul>
           {% for item in site.data.footer.connect %}
 	        <li>
-            <a class="white-text" href="http://www.facebook.com/ass.it.stud.fis"><img src="{{site.url}}/img/fb_logo.png"></a>
+            <a class="white-text" href="http://www.facebook.com/ass.it.stud.fis" target="_blank"><img src="{{site.url}}/img/fb_logo.png"></a>
           </li>
 	        {% endfor %}
         </ul>
