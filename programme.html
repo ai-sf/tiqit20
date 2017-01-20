@@ -53,9 +53,9 @@ title: Programme
 <div class="section">
   <h2>Partecipation fee and requirements</h2>
   <p>{{ site.data.programme.few_info.info }}<p>
-  <div class="collection">
+  <ul class="collection">
   {% for item in site.data.programme.few_info.specs %}
-    <a
+    <li
       {% if item.url contains "http://" %}
          href="{{ item.url }}"
       {% else %}
@@ -66,23 +66,15 @@ title: Programme
       {% if item.url != "#!" %}
         <span class="badge custom1 white-text">{{ item.button }}</span>
       {% endif %}
-    </a>
+    </li>
     {% for item2 in item.subpoints %}
-      <a
-        {% if item2.url contains "http://" %}
-           href="{{ item2.url }}"
-        {% else %}
-           href="{{ site.url }}/{{ item2.url }}"
-        {% endif %}
-        class="collection-item black-text custom1 lighten-5">
+      <li class="collection-item black-text custom1 lighten-5">
         {{ item2.text }}
-        {% if item.url != "#!" %}
-          <span class="badge custom1 white-text">{{ item2.button }}</span>
-        {% endif %}
-      </a>
+        
+      </li>
     {% endfor %}
   {% endfor %}
-  </div>
+  </ul>
 </div>
 
 

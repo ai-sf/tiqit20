@@ -23,31 +23,22 @@ title: Registration
 <div class="section">
   <h2>Deadline for registration and payment</h2>
   <p>{{ site.data.registration.deadlines.info }}<p>
-  <div class="collection">
+  <ul class="collection">
   {% for item in site.data.registration.deadlines.specs %}
-    <a
-      {% if item.url contains "http://" %}
-         href="{{ item.url }}"
-      {% else %}
-         href="{{ site.url }}/{{ item.url }}"
-      {% endif %}
+    <li
       class="collection-item black-text">
       {{ item.text }}
       
-    </a>
+    </li>
     {% for item2 in item.subpoints %}
-      <a
-        {% if item2.url contains "http://" %}
-           href="{{ item2.url }}"
-        {% else %}
-           href="{{ site.url }}/{{ item2.url }}"
-        {% endif %}
+      <li
+        
         class="collection-item black-text custom1 lighten-5">
         {{ item2.text }}
         {% if item.url != "#!" %}
           <span class="badge custom1 white-text">{{ item2.button }}</span>
         {% endif %}
-      </a>
+      </li>
     {% endfor %}
   {% endfor %}
   </div>
@@ -58,35 +49,28 @@ title: Registration
 <div class="section">
   <h2>Terms and conditions</h2>
   <p>{{ site.data.registration.terms.info }}<p>
-  <div class="collection">
+  <ul class="collection">
   {% for item in site.data.registration.terms.specs %}
-    <a
-      {% if item.url contains "http://" %}
-         href="{{ item.url }}"
-      {% else %}
-         href="{{ site.url }}/{{ item.url }}"
-      {% endif %}
-      class="collection-item black-text">
+    <li class="collection-item black-text">
       {{ item.text }}
-      {% if item.url != "#!" %}
-        <span class="badge custom1 white-text">{{ item.button }}</span>
-      {% endif %}
-    </a>
-    {% for item2 in item.subpoints %}
-      <a
-        {% if item2.url contains "http://" %}
-           href="{{ item2.url }}"
+      {% if item.url contains "IAPS" %}
+        <span class="badge white-text"><a {% if item.url contains "http://" %}
+           href="{{ item.url }}"
         {% else %}
-           href="{{ site.url }}/{{ item2.url }}"
-        {% endif %}
+           href="{{ site.url }}/{{ item.url }}"
+        {% endif %}>{{ item.button }}</a></span>
+      {% endif %}
+    </li>
+    {% for item2 in item.subpoints %}
+      <li
         class="collection-item black-text custom1 lighten-5">
         {{ item2.text }}
         {% if item.url != "#!" %}
           <span class="badge custom1 white-text">{{ item2.button }}</span>
         {% endif %}
-      </a>
+      </li>
     {% endfor %}
   {% endfor %}
-  </div>
+  </ul>
 </div>
 
