@@ -46,26 +46,11 @@ layout: default
         </div>
       </div>
     </div>
-
-     <!-- slideshow -->
-    <div class="section">
-      <div class="slider" id="foto-eventi">
-        <ul class="slides">
-          {% for slide in site.data.home.slideshow %}
-            <li>
-              <img src="{{ site.url }}/{{ slide.img }}" alt="{{ slide.alt }}">
-              <div class="caption center-align">
-                <h4 class="light red-text">{{ slide.title }}</h4>
-                <p class="light grey-text">{{ slide.text }}</p>
-              </div>
-            </li>
-          {% endfor %}
-        </ul>
-      </div>
-    </div>
-    
-    
-    
     
   </div>
+</div>
+
+    
+<div class="parallax-container">
+  <div class="parallax"><img src="./img/innsbruck.jpg"></div>
 </div>
