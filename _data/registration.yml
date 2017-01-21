@@ -1,4 +1,4 @@
-info: "Registration will be opened on eventbrite, follow the link below, the first of Febraury at 00:00 GMT+1 and will finish on 15th february.
+info: "Registration on eventbrite (click on the link below) will be open from 1st Febraury at 00:00 GMT+1 to 15th February.
 </p><p>
 Please read the terms and conditions below. Please note that, upon registration, you will be asked for personal details (such as name, surname, date of birth, university affiliation, etc.)."
 
@@ -29,5 +29,7 @@ terms:
 deadlines:
   info: ""
   specs:
-    - text: "A round of registration for the event will be open at this page between Febraury 1st (00:00, GTM+1) and Febraury 15th"
-    - text: "Following the registration, we expect to send an email within 3 days for the selected people. The selection process will end before the 18th of Febraury. Payments will then be required (by bank transfer or PayPal) within 7 days of receiving an acceptance email from the organising committee. Once the tickets are finished you can still register and you will be automatically in the waiting list. In this case you will receive a confirmation at least on Febraury 25th"
+    - text: "Registration opens on 1st Febraury (00:00, GTM+1) and closes 15th Febraury  (11:00, GTM+1)"
+    - text: "within 3 days after the registration deadline, all selected participants have been notified.
+You could receive your confirmation mail at any time from the moment you register to 18th Febraury, so keep your mailbox checked! Payments will then be required (by bank transfer or PayPal) within 7 days from the confirmation mail. 
+After the event is fully booked, you can still register and you will be automatically put in the waiting list. In this case, you will receive your confirmation not later than 25th Febraury"
