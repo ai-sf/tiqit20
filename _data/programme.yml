@@ -68,6 +68,7 @@ few_info:
     - text: "There are 40 places maximum: 25 for students from Trento and 15 for students from other parts of Italy"
     - text: "Participation fees are fixed at €40 for each applicant. Such fee will cover the cost of accommodation in Innsbruck, the travel from Trento to Innsbruck and return, dinner and lunch. Please notice that participation fees <b>does not cover</b> the following:"
       subpoints:
+        - text: "First overnight in Trento"
         - text: "Breakfast second day"
         - text: "Insurance"
         - text: "Meals other than those officially offered in the Programme. When useful, the Organising Committee
