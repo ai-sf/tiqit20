@@ -17,6 +17,8 @@ schedule:
         descr: "Nanoscience Talks"
       - hour: "16:00-17:20"
         descr: "Laboratories visit"
+      - hour: "18:00"
+        descr: "appetizer offered by the Trento Physics Department and orientation moment"
       - hour: "20:30 "
         descr: "Dinner at Pedavena and free night"
 
@@ -66,7 +68,16 @@ few_info:
   specs:
     - text: "In order to sign up for the event you must be an AISF member."
     - text: "There are 40 places maximum: 25 for students from Trento and 15 for students from other parts of Italy"
-    - text: "Participation fees are fixed at €40 for each applicant. Such fee will cover the cost of accommodation in Innsbruck, the travel from Trento to Innsbruck and return, dinner and lunch. Please notice that participation fees <b>does not cover</b> the following:"
+    - text: "Participation fees are fixed at €40 for each applicant. Such fee will cover the cost of gadgets and the lunch and dinner in Trento. All others costs are kindly offered by the IQOQI and IPC (Innsbruck Physics Center). In particular IQOQI takes charge of:"
+      subpoints:
+        - text:  "The hostel in Innsbruck"
+        - text:  "Lunch at TechCafè"
+        - text:  "Bus transport from Trento to Innsbruck"
+    - text:  "and backwhile IPC covers"
+      subpoints:
+        - text: "The dinner at Stiftskeller"
+        - text:  "Final lunch at University togheter with Innsbruck university students"
+    - text: "Please notice that participation fees <b>does not cover</b> the following:"
       subpoints:
         - text: "First overnight in Trento"
         - text: "Breakfast second day"
@@ -75,4 +86,5 @@ few_info:
       will always suggest places to eat."
     - text: "Note: if you are Italian and you are not an AISF member yet you can become an AISF member while registering for this event."
     - text: "Please note that unfortunately we are not able to provide scholarships and/or bursaries for any students at this time."
+    
     
