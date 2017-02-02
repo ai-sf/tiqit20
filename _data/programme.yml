@@ -68,12 +68,15 @@ few_info:
   specs:
     - text: "In order to sign up for the event you must be an AISF member."
     - text: "There are 40 places maximum: 25 for students from Trento and 15 for students from other parts of Italy"
-    - text: "Participation fees are fixed at €40 for each applicant. Such fee will cover the cost of gadgets and the lunch and dinner in Trento. All others costs are kindly offered by the IQOQI and IPC (Innsbruck Physics Center). In particular IQOQI takes charge of:"
+    - text: "Participation fees are fixed at €40 for each applicant. Such fee will cover the cost of gadgets and the lunch and dinner in Trento. 
+All others costs are kindly offered by the IQOQI and IPC (Innsbruck Physics Center). 
+In particular IQOQI takes charge of:"
       subpoints:
-        - text:  "The hostel in Innsbruck"
+        - text:  "The hostel in Innsbruck
+"
         - text:  "Lunch at TechCafè"
-        - text:  "Bus transport from Trento to Innsbruck"
-    - text:  "and backwhile IPC covers"
+        - text:  "Bus transport from Trento to Innsbruck and back"
+    - text:  "while IPC covers"
       subpoints:
         - text: "The dinner at Stiftskeller"
         - text:  "Final lunch at University togheter with Innsbruck university students"
