@@ -1,7 +1,7 @@
 # Site settings
 title: "Tiqit"
 description: "Tiqit"
-url: "https://ai-sf.it/tiqit18"
+url: "http://ai-sf.it/tiqit18"
 destination: ../site/
 locale: "it"
 
