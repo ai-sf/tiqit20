@@ -20,7 +20,7 @@ schedule:
       - hour: "19:30"
         descr: "Dinner with catering offered by the Trento Physics Department "
       - hour: "21:00"
-        descr: "Free evening o si fa qualcosa?"
+        descr: "Free evening"
 
   - day: Wednesday
     date: "11/04"
@@ -53,7 +53,8 @@ schedule:
 few_info:
   info: ""
   specs:
-    - text: "In order to sign up for the event you must be an AISF member."
+    - text: "In order to sign up for the event you must be an AISF member"
+    - text: "Due to the contents of the talks, the partecipants must be at least at the last year of the bachelor"
     - text: "There are 40 places maximum: 20 for students from Trento and 20 for students from other parts of Italy"
     - text: "Participation fee is different wheter you want to stay at the Hostel in Trento or not"
       subpoints:
