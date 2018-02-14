@@ -1,92 +1,69 @@
-info: "The Trento-Innsbruck Quantum Information Tour will take place from the 1st to the 3rd of march. The event will start in Trento with the visit to the university and the BEC and nanosciences labs. The next day participants will meet at the bus station in order to take the bus to Innsbruck for the IQOQI visit. At the end of the day we will stay in an hostel in Innsbruck center for the night and the following day there will be the visit to the Innsbruck university, at the end of which is organized a lunch and then the return to Trento, again by bus.
+info: "The Trento-Innsbruck Quantum Information Tour will take place from the 10th to the 14th of april. The event will start in Trento with the visit to the university and the BEC and nanosciences labs. Then participants will meet at the bus station in order to take the bus to Innsbruck for the IQOQI visit. At the end of the day we will stay in an hostel in Innsbruck center for the night and the following day there will be the visit to the Innsbruck university, at the end of which is organized a lunch and then the return to Trento, again by bus.
  The event will have a focus on Bose-Einstein Condensation, Nanoscience, Quantum
 Optics and Quantum Information. The language of the talks will be English.</p><p> The complete event programme is below"
 
-last_update: 12/01/17
+last_update: 14/02/18
 
 schedule:
-  - day: Wednesday
-    date: "01/03"
+  - day: Tuesday
+    date: "10/04"
     short_descr: Trento part 
     activity:
-      - hour: "11:00"
+      - hour: "14:00"
+        descr: "Official meetup and start of Tiqit 2018"
+      - hour: "14:30"
         descr: "BEC Talks"
-      - hour: "13:00"
-        descr: "Catering lunch in University"
-      - hour: "14:00"
-        descr: "Nanoscience Talks"
-      - hour: "16:00-17:20"
-        descr: "Laboratories visit"
-      - hour: "18:00"
-        descr: "appetizer offered by the Trento Physics Department and orientation moment"
-      - hour: "20:30 "
-        descr: "Dinner at Pedavena and free night"
+      - hour: "16:30"
+        descr: "Visit to BEC laboratories"
+      - hour: "18:30"
+        descr: "Orientation moment"
+      - hour: "19:30"
+        descr: "Dinner with catering offered by the Trento Physics Department "
+      - hour: "21:00"
+        descr: "Free evening o si fa qualcosa?"
 
-  - day: Thursday
-    date: "02/03"
-    short_descr: "Let s go to Innsbruck"
+  - day: Wednesday
+    date: "11/04"
+    short_descr: "Trento part"
     activity:
-      - hour: "6:00"
-        descr: "Departure from Trento"
-      - hour: "08:30"
-        descr: "Arrival in Innsbruck"
-      - hour: "09:30"
-        descr: "Arrival at IQOQI"
-      - hour: "10:00"
-        descr: "Talks"
-      - hour: "13:30"
-        descr: "Lunch at TechCafè"
-      - hour: "14:00"
-        descr: "Talks with coffee break"
-      - hour: "15:30 - 18:30"
-        descr: "Laboratories visit"
-      - hour: "19:00"
-        descr: "Check in at the hostel"
-      - hour: "20:15"
-        descr: "Dinner at Stiftskeller and free night"
-
-
-  - day: Friday
-    date: "03/03"
-    short_descr: Another day in Innsbruck
-    activity:
-      - hour: "07:30"
-        descr: "Wake up and breakfasts"
-      - hour: "8:30"
-        descr: "leaving the hostel head to the University"
       - hour: "9:00"
-        descr: "arrival at University"
-      - hour: "9:30"
-        descr: "Visit to the University of Innsbruck"
+        descr: "Theoretical talks"
+      - hour: "11:00"
+        descr: "Photonics group talks"
       - hour: "13:00"
-        descr: "lunch with Innsbruck Students"
-      - hour: "17:00"
-        descr: "Returning to Trento"
+        descr: "Lunch"
+      - hour: "17:30"
+        descr: "Visit to FBK"
+      - hour: "20:00"
+        descr: "Dinner at Rosa d'Oro"
+
+  - day: "Thursday"
+    date: "12/04"
+    short_descr: "Innsbruck"
+    activity:
+      - hour: "00:00"
+        descr: "Giorno indefinito"
+  - day: "Friday"
+    date: "13/04"
+    short_descr: "Innsbruck"
+    activity:
+      - hour: "00:00"
+        descr: "Giorno indefinito"
   
 few_info:
   info: ""
   specs:
     - text: "In order to sign up for the event you must be an AISF member."
-    - text: "There are 40 places maximum: 25 for students from Trento and 15 for students from other parts of Italy"
-    - text: "Participation fees are fixed at €40 for each applicant. Such fee will cover the cost of gadgets and the lunch and dinner in Trento. 
-All others costs are kindly offered by the IQOQI and IPC (Innsbruck Physics Center). 
-In particular IQOQI takes charge of:"
+    - text: "There are 40 places maximum: 20 for students from Trento and 20 for students from other parts of Italy"
+    - text: "Participation fee is different wheter you want to stay at the Hostel in Trento or not"
       subpoints:
-        - text:  "The hostel in Innsbruck
-"
-        - text:  "Lunch at TechCafè"
-        - text:  "Bus transport from Trento to Innsbruck and back"
-    - text:  "while IPC covers"
-      subpoints:
-        - text: "The dinner at Stiftskeller"
-        - text:  "Final lunch at University togheter with Innsbruck university students"
+        - text: "Fee is <40€ without accomodation in Trento"
+        - text: "Fee is <82€ with included accomodation in Trento at Hostel"
     - text: "Please notice that participation fees <b>does not cover</b> the following:"
       subpoints:
-        - text: "First overnight in Trento"
-        - text: "Breakfast second day"
+        - text: "Breakfast if not included in the Hostel"
         - text: "Insurance"
-        - text: "Meals other than those officially offered in the Programme. When useful, the Organising Committee
-      will always suggest places to eat."
+        - text: "Meals other than those officially offered in the Programme. When useful, the Organising Committee will always suggest places to eat."
     - text: "Note: if you are Italian and you are not an AISF member yet you can become an AISF member while registering for this event."
     - text: "Please note that unfortunately we are not able to provide scholarships and/or bursaries for any students at this time."
     

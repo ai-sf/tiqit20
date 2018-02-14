@@ -10,10 +10,10 @@ layout: default
 <div class="row center">
   <h5 class="header col s12 light white-text">the programme of the event</h5>
 </div>
-  <div class="row center">
+ <!-- <div class="row center">
     <a href="{{site.url}}/files/PROGRAMMA.pdf" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Booklet</a>  <a href="{{site.url}}/files/program_talks_second_edition.pdf" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Trento talk abstracts</a>   
     <br>
-  </div>
+  </div>-->
            
           <br><br>  
 	</div>
@@ -46,7 +46,7 @@ layout: default
     <div class="col s12">
       <ul class="tabs">
       {% for item in site.data.programme.schedule %}
-            <li class="tab col m3 s12" style="width: 33%;"><a class="orange-text" href="#{{ item.day }}">{{ item.day }}</a></li>
+            <li class="tab col m3 s12" style="width: 25%;"><a class="orange-text" href="#{{ item.day }}">{{ item.day }}</a></li>
     {% endfor %}
     <div class="indicator orange" style="z-index:1"></div>
       </ul>

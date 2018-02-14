@@ -1,7 +1,7 @@
 # Site settings
 title: "Tiqit"
 description: "Tiqit"
-url: "http://ai-sf.it/tiqit"
+url: "http://ai-sf.it/tiqit2018"
 destination: ../site/
 locale: "it"
 
@@ -22,6 +22,6 @@ collections:
     output: true
     permalink: /:categories/:year/:month/:day/:title/
 
-gems:
- - jekyll-redirect-from
- - jekyll-sitemap
+#plugins:
+# - jekyll-redirect-from
+# - jekyll-sitemap
