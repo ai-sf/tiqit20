@@ -103,7 +103,8 @@ few_info:
       subpoints:
         - text: "Fee is 35€ without accomodation in Trento"
         - text: "Fee is 77€ with included accomodation in Trento at Hostel for the night of Tuesday and Wednesday"
-    - text: "Please notice that participation fees <b>does not cover</b> the following:"
+   - text: "Such fee will cover the cost of gadgets and the lunch, dinner, and accomodation in Trento. All others costs are kindly offered by the IQOQI and IPC (Innsbruck Physics Center)."
+   - text: "Please notice that participation fees <b>does not cover</b> the following:"
       subpoints:
         - text: "Breakfast if not included in the Hostel"
         - text: "Insurance"
