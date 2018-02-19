@@ -103,13 +103,11 @@ few_info:
       subpoints:
         - text: "Fee is 35€ without accomodation in Trento"
         - text: "Fee is 77€ with included accomodation in Trento at Hostel for the night of Tuesday and Wednesday"
-   - text: "Such fee will cover the cost of gadgets and the lunch, dinner, and accomodation in Trento. All others costs are kindly offered by the IQOQI and IPC (Innsbruck Physics Center)."
-   - text: "Please notice that participation fees <b>does not cover</b> the following:"
+    - text: "Such fee will cover the cost of gadgets and the lunch and dinner in Trento. All others costs are kindly offered by the IQOQI and IPC (Innsbruck Physics Center)."
+    - text: "Please notice that participation fees <b>does not cover</b> the following:"
       subpoints:
         - text: "Breakfast if not included in the Hostel"
         - text: "Insurance"
-        - text: "Meals other than those officially offered in the Programme. When useful, the Organising Committee will always suggest places to eat."
+        - text: "Meals other than those officially offered in the Programme. When useful, the Organising Committee will always suggest places to eat." 
     - text: "Note: if you are Italian and you are not an AISF member yet you can become an AISF member while registering for this event."
     - text: "Please note that unfortunately we are not able to provide scholarships and/or bursaries for any students at this time."
-    
-    
