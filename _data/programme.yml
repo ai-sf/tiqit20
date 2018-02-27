@@ -43,7 +43,7 @@ schedule:
     activity:
       - hour: "06:30"
         descr: "Check out from the hostel"
-      - hour: "06:40"
+      - hour: "06:45"
         descr: "Departure from Trento"
       - hour: "09:00"
         descr: "Arrival at Innsbruck and welcome coffee with Professor Ferlaino"
