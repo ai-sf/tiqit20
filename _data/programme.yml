@@ -13,11 +13,13 @@ schedule:
         descr: "Official meetup and check-in at the hostel Giovane Europa"
       - hour: "15:00"
         descr: "BEC Talks"
-      - hour: "17:00"
+      - hour: "16:30"
         descr: "Visit to BEC laboratories"
-      - hour: "19:00"
+      - hour: "18:20"
+        descr: "Orientation moment"
+      - hour: "19:30"
         descr: "Dinner with catering offered by the Trento Physics Department "
-      - hour: "21:00"
+      - hour: "20:30"
         descr: "Show: Il principio dell'incertezza, by Andrea Brunello "
 
   - day: Wednesday
@@ -32,8 +34,6 @@ schedule:
         descr: "Lunch"
       - hour: "14:30"
         descr: "Visit to nanoscience laboratories and FBK"
-      - hour: "18:30"
-        descr: "Orientation moment"
       - hour: "20:30"
         descr: "Dinner at Rosa d'Oro"
 
