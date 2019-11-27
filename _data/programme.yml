@@ -1,6 +1,11 @@
-info: "The Trento-Innsbruck Quantum Information Tour will take place from the 10th to the 13th of april. The event will start in Trento with the visit to the university and the BEC and nanosciences labs. Then participants will meet at the bus station in order to take the bus to Innsbruck for the IQOQI visit. At the end of the day we will stay in an hostel in Innsbruck center for the night and the following day there will be the visit to the Innsbruck university, at the end of which is organized a lunch and then the return to Trento, again by bus.
- The event will have a focus on Bose-Einstein Condensation, Nanoscience, Quantum
-Optics and Quantum Information. The language of the talks will be English.</p><p> The complete event programme is below"
+info: "The Trento-Innsbruck Quantum Information Tour is coming to its third edition.
+       <br>The event will have a focus on Bose-Einstein Condensation, Nanoscience, Quantum Optics and Quantum Information. The language of the talks will be English.
+       <br> Students will be given lectures on forefront theoretical and experimental research in this fields by academics and prominent figures in Trento and Innsbruck environment.
+      </p><p>The event will start in Trento with the visit to the University nanosciences and photonics labs. 
+       <br>On Tuesday students will be hosted in the morning by Bruno Kessler Foundation and in the afternoon will be guided through the BEC nanoscience labs.
+       <br>The following day participants will move to Innsbruck to visit the Institute for Quantum Optics and Quantum Information. 
+       <br>The morning of the final day will be spent at the Physics Department of Innsbruck University. After lunch a private bus will take to Trento participants who need to return ther.
+</p><p> You can find the detailed program below, which will be constantly updated"
 
 last_update: 27/11/19
 
@@ -105,14 +110,15 @@ few_info:
   info: ""
   specs:
     - text: "In order to sign up for the event you must be an AISF or IAPS member"
-    - text: "Participation fee is different wheter you want to stay at the Hostel in Trento or not"
+    - text: "Participation fee is different whether you want to stay at the Hostel in Trento or not"
       subpoints:
         - text: "Fee is 50€ without accomodation in Trento"
         - text: "Fee is 80€ with included accomodation in Trento at Hostel for the night of Monday and Tuesday"
     - text: "Such fee will cover the social dinners of Monday and Wednesday, every lunch, local transportation in Trento, the bus to and from Innsbruck and the accomodation in Innsbruck"
+    - text: "Participants who need to arrive and sleep in Trento on Sunday 22nd can request to book an extra night at the hostel, by adding to the fee 21,50€.
     - text: "Please notice that participation fees <b>does not cover</b> the following:"
       subpoints:
-        - text: "Breakfast if not included in the Hostel"
+        - text: "Breakfast if not included in the Hostel in Innsbruck"
         - text: "Insurance"
     - text: "Note: if you are Italian and you are not an AISF member yet you can become an AISF member while registering for this event."
     - text: "Please note that unfortunately we are not able to provide scholarships and/or bursaries for any students at this time."
