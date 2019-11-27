@@ -25,21 +25,21 @@ selection:
 
 terms:
   info: "Please read carefully and take note of the following:"
-  specs:
-    - text: "All personal data will be handled confidentially. It will not be forwarded to any third parties except where necessary for the purpose of the conference. Please keep in mind that we will forward some of the information in your registration form to the universities and research centres involved. We will also send your name and university to the board of the national/local committees of IAPS to check your IAPS membership."
+    specs:
+    - text: "All personal data will be handled confidentiallyand in compliance with the European (GDPR EU 2016/679) and Italian (Art. 13 D. Lgs. 196/2003) data and privacy protection laws."
       url: "#!"
-    - text: "Only students enrolled in a university or similar institution on a physics or physics-related course, as well as up to twelve months after receiving a degree from a university are able to participate in this event. Only students with an age of at least 18 years are allowed to attend the conference."
+    - text: "Only students enrolled in a university or similar institution on a physics or physics-related course, as well as up to twelve months after receiving a degree from a university are able to participate in this event. You confirm that you will be at least 18 years of age by the 3rd of December, 2019.
       url: "#!"
-    - text: "You acknowledge and agree that the organizing committee and the hosts of the event have no responsibility whatsoever for injuries, losses, or damages of any kind that result from your participation in the Trento Innsbruck Quantum Information Tour 2017."
+    - text: "You acknowledge and agree that the Organising Committee, the Italian Association of Physics Students (AISF), the International Association of Physics Students (IAPS), and the hosts of the event have no responsibility whatsoever for injuries, losses, or damages of any kind that result from your participation in the Astroparticle Physics Autumn Programme 2019."
       url: "#!"
     - text: "You accept the IAPS Code of Conduct."
       url: "files/IAPS_Code_of_Conduct.pdf"
       button: "PDF"
-    - text: "By participating in the event you agree to be filmed, photographed, and otherwise recorded during the conference and hereby expressly grant the organizing committee, AISF and IAPS the right to use your picture, movie or any other form of media publication. You also confirm that the information contained in this application is true and correct."
+    - text: "By participating in the event you agree to be filmed, photographed, and otherwise recorded during the conference and hereby expressly grant the organizing committee, AISF and IAPS the right to use your picture, movie or any other form of media publication in contexts such as the internet, social medias, brochures, posters, informative and advertising materials. You also confirm that the information contained in this application is true and correct."
       url: "#!"
-    - text: "You accept that the organizing committee cannot be made responsible for the content of any talk, poster, workshop, excursion or similar activity."
+    - text: "You accept that either the Organising Committee, or the Italian Association of Physics Students (AISF), or the International Association of Physics Students (IAPS), or the hosts of the event cannot be made responsible for the content of any talk, poster, workshop, excursion or similar activity."
       url: "#!"
-    - text: "You accept that, in case of cancellation by a participant, the Organising Committee will provide a reimbursement only if a replacement for the student can be found. No reimbursement will be given for membership fees under any circumstances. If a reimbursement were to be approved, the Organising Committee will retain a total of €10 from the fee as a contribution to the expenses to the event. All decisions about financial aspects of the event will need to be approved by the entire Organising Committee."
+    - text: "You accept that, in case of cancellation by a participant, the Organising Committee will provide a reimbursement only if a replacement for the student can be found. No reimbursement will be given for membership fees under any circumstances. If a reimbursement were to be approved, the Organising Committee will retain a total of 20% of the fee as a contribution to the expenses to the event. No reimbursement will be approved for cancellations presented after March 9th ."
       url: "#!"
     - text: "The present terms and conditions are governed by the laws of the Republic of Italy."
       url: "#!"
