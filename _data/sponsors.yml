@@ -1,11 +1,18 @@
 img: img/sponsor4.png
-mail:  luca.lazzizzera@ai-sf.it
-
-thanks: "We owe huge thanks to both the Physics Department of Trento, the IQOQI, the IPC, and the Fondazione Caritro, that gave us an essential financial support without which organizing this amazing event would have been impossible. 
-Furthermore these institutions and FBK have been more than delightful helping us with any need we came up and allowing AISF members to visit their facilities, sharing the knowledge and science that they have gathered"
-
+mail:  esecutivo@ai-sf.it
 
 slideshow:
   - img: img/slide/lampo.jpg
   - img: img/slide/tipo.jpg
   - img: img/slide/cibo.jpg
+
+institutions:
+    - name: "Physics Department of Trento"
+      website: "http://www.physics.unitn.it/en"
+      logo: "img/sponsors/logodipfisica.jpg"
+    - name: "FBK"
+      website: "https://www.fbk.eu/en/"
+      logo: "img/sponsors/logofbk.png"
+    - name: "IQOQI"
+      website: "https://www.iqoqi.at/en/"
+      logo: "img/sponsors/logoiqoqi.jpg"
