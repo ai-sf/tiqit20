@@ -20,36 +20,44 @@ title: Registration
 {% endif %}
 
 
-<div class="row center">
-    <a href="https://forms.zohopublic.eu/tiqit/form/Eventregistration/formperma/r7ZPmL9DhWmdrlWG7R1o7tccoTrK4oyjGyMm5J5rlGw" target="_blank" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Register</a><br>
-  </div>
-
-
-
-
 <div class="section">
-  <h2>Deadlines, payment, and useful information</h2>
-  <p>{{ site.data.registration.deadlines.info }}<p>
-  <ul class="collection">
-  {% for item in site.data.registration.deadlines.specs %}
-    <li
+  <h2>Info about selections</h2>
+  <p>{{ site.data.registration.selection.info }}<p>
+  <div class="collection">
+  {% for item in site.data.registration.selection.specs %}
+    <a
+      {% if item.url contains "http://" %}
+         href="{{ item.url }}"
+      {% else %}
+         href="{{ site.url }}/{{ item.url }}"
+      {% endif %}
       class="collection-item black-text">
       {{ item.text }}
-      
-    </li>
+      {% if item.url != "#!" %}
+        <span class="badge custom1 white-text">{{ item.button }}</span>
+      {% endif %}
+    </a>
     {% for item2 in item.subpoints %}
-      <li
-        
+      <a
+        {% if item2.url contains "http://" %}
+           href="{{ item2.url }}"
+        {% else %}
+           href="{{ site.url }}/{{ item2.url }}"
+        {% endif %}
         class="collection-item black-text custom1 lighten-5">
         {{ item2.text }}
         {% if item.url != "#!" %}
           <span class="badge custom1 white-text">{{ item2.button }}</span>
         {% endif %}
-      </li>
+      </a>
     {% endfor %}
   {% endfor %}
   </div>
 </div>
+
+
+
+
 
 
 
@@ -79,5 +87,29 @@ title: Registration
     {% endfor %}
   {% endfor %}
   </ul>
+</div>
+
+<div class="section">
+  <h2>Deadlines for registrations and payment</h2>
+  <p>{{ site.data.registration.deadlines.info }}<p>
+  <ul class="collection">
+  {% for item in site.data.registration.deadlines.specs %}
+    <li
+      class="collection-item black-text">
+      {{ item.text }}
+      
+    </li>
+    {% for item2 in item.subpoints %}
+      <li
+        
+        class="collection-item black-text custom1 lighten-5">
+        {{ item2.text }}
+        {% if item.url != "#!" %}
+          <span class="badge custom1 white-text">{{ item2.button }}</span>
+        {% endif %}
+      </li>
+    {% endfor %}
+  {% endfor %}
+  </div>
 </div>
 
