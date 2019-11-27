@@ -7,14 +7,16 @@ contact:
   - name: AISF Trento
     mail: trento@ai-sf.it
   - name: Contact person
-    mail: luca.lazzizzera@ai-sf.it
-  
-    
+    mail: zeno.bacciconi@ai-sf.it
+
+
 
 connect:
   - name: Facebook
-    url: https://www.facebook.com/AISF-Trento-958208697625956/
+    url: https://www.facebook.com/AisfTrento/
 
 creator:
-  - name: Canteri Marco
-    mail: marco.canteri@ai-sf.it
+  - name: Elisa Garabello
+    mail: elisa.garabello@ai-sf.it
+  - name: Roberto Ciccarelli
+    mail: roberto.ciccarelli@ai-sf.it
