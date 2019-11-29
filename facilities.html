@@ -11,12 +11,12 @@ title: Facilities
       <div class="row">
     {% endif %}
       <div class="col s12 m6">
-        <div class="card">
+        <div class="card customh">
           <div class="card-image">
-    	       <img src="{{ site.url}}/{{ item.img }}">
+    	       <img src="{{ site.url}}/{{ item.img }}" style="max-width:100%; max-height:100%">
+                <span class="card-title">{{ item.title }}</span>
           </div>
           <div class="card-content">
-    	       <span class="card-title grey-text text-darken-4">{{ item.title }}</span>
     	       <p>
                <small>
                  {{ item.descr }}
@@ -48,7 +48,7 @@ title: Facilities
         <div class="card">
           <div class="card-image">
     	       <img src="{{ site.url}}/{{ item.img }}">
-          </div> 
+          </div>
           <div class="card-content">
     	       <span class="card-title grey-text text-darken-4">{{ item.title }}</span>
     	       <p>
@@ -68,4 +68,3 @@ title: Facilities
     {% endif %}
   {% endfor %}
 </div>
-

@@ -42,8 +42,8 @@ width: 100%;
 padding: 20px 0 0 0;
 }
 
-.card-image{
-    padding: 1em;
+.card.customh .card-image{
+    height:200px;
 }
 
 #index-page h2 { font-size: $h5-fontsize; line-height: 110%; margin: ($h5-fontsize / 2) 0 ($h5-fontsize / 2.5) 0;}

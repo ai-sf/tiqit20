@@ -3,109 +3,99 @@ layout: default
 ---
 
 <div id="index-banner" class="parallax-container">
-      <div class="section no-pad-bot">
-	<div class="container">
-          <br><br>
-<h1 class="header center orange-text text-lighten-2">Programme</h1>
+    <div class="section no-pad-bot">
+        <div class="container">
+            <br><br>
+            <h1 class="header center orange-text text-lighten-2">Programme</h1>
 
- <!-- <div class="row center">
-    <a href="{{site.url}}/files/PROGRAMMA.pdf" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Booklet</a>  <a href="{{site.url}}/files/program_talks_second_edition.pdf" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Trento talk abstracts</a>   
-    <br>
-  </div>-->
-           
-          <br><br>  
-	</div>
-      </div>
-<div class="parallax"><img src="{{site.url}}/img/fotofiga2.jpg"></div>
+
+            <br><br>
+        </div>
     </div>
+    <div class="parallax"><img src="{{site.url}}/img/fotofiga2.jpg"></div>
+</div>
 
 
 
 
 <div class="container">
     <div class="post">
-
-      
-
-      <article class="post-content">
-      
-     
-<div class="section">
-  <h2>General Info</h2>
-  <p>
-    {{ site.data.programme.info }}
-  </p>
-</div>
+        <article class="post-content">
+            <div class="section">
+                <h2>General Info</h2>
+                <p>
+                    {{ site.data.programme.info }}
+                </p>
+            </div>
 
 
-<div class="section">
-      <h2>Schedule</h2>  
-      <div class="row">
-    <div class="col s12">
-      <ul class="tabs">
-      {% for item in site.data.programme.schedule %}
-            <li class="tab col m3 s12" style="width: 25%;"><a class="orange-text" href="#{{ item.day }}">{{ item.day }}</a></li>
-    {% endfor %}
-    <div class="indicator orange" style="z-index:1"></div>
-      </ul>
-    </div>
-    
-   {% for item in site.data.programme.schedule %} 
-    <div id="{{item.day}}" class="col s12">
-      <br>
-      <h5>{{ item.day }} {{ item.date }}</h5>
-      <table>
-        <thread>
-          <tr>
-        <th data-field="time">Hour</th>
-        <th data-field="what"></th>
-          </tr>
-        </thread>
-        <tbody>
-        {% for act in item.activity %}
-          <tr>
-        <td>{{ act.hour }}</td>
-        <td>{{ act.descr }}</td>
-          </tr>
-         {% endfor %}
-        </tbody>
-      </table>
-    </div>
-    
-{% endfor %}
-    </div>
-</div>
+            <div class="section">
+                <h2>Schedule</h2>
+                <div class="row">
+                    <div class="col s12">
+                        <ul class="tabs">
+                            {% for item in site.data.programme.schedule %}
+                            <li class="tab col m3 s12" style="width: 25%;"><a class="orange-text" href="#{{ item.day }}">{{ item.day }}</a></li>
+                            {% endfor %}
+                            <div class="indicator orange" style="z-index:1"></div>
+                        </ul>
+                    </div>
+
+                    {% for item in site.data.programme.schedule %}
+                    <div id="{{item.day}}" class="col s12">
+                        <br>
+                        <h5>{{ item.day }} {{ item.date }}</h5>
+                        <table>
+                            <thread>
+                                <tr>
+                                    <th data-field="time">Hour</th>
+                                    <th data-field="what"></th>
+                                </tr>
+                            </thread>
+                            <tbody>
+                                {% for act in item.activity %}
+                                <tr>
+                                    <td>{{ act.hour }}</td>
+                                    <td>{{ act.descr }}</td>
+                                </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+
+                    {% endfor %}
+                </div>
+            </div>
 
 
-<div class="section">
-  <h2>Partecipation fee and requirements</h2>
-  <p>{{ site.data.programme.few_info.info }}<p>
-  <ul class="collection">
-  {% for item in site.data.programme.few_info.specs %}
-    <li
-      {% if item.url contains "http://" %}
-         href="{{ item.url }}"
-      {% else %}
-         href="{{ site.url }}/{{ item.url }}"
-      {% endif %}
-      class="collection-item black-text">
-      {{ item.text }}
-      {% if item.url != "#!" %}
-        <span class="badge custom1 white-text">{{ item.button }}</span>
-      {% endif %}
-    </li>
-    {% for item2 in item.subpoints %}
-      <li class="collection-item black-text custom1 lighten-5">
-        {{ item2.text }}
-        
-      </li>
-    {% endfor %}
-  {% endfor %}
-  </ul>
-</div>
+            <div class="section">
+                <h2>Partecipation fee and requirements</h2>
+                <p>{{ site.data.programme.few_info.info }}<p>
+                    <ul class="collection">
+                        {% for item in site.data.programme.few_info.specs %}
+                        <li
+                        {% if item.url contains "http://" %}
+                        href="{{ item.url }}"
+                        {% else %}
+                        href="{{ site.url }}/{{ item.url }}"
+                        {% endif %}
+                        class="collection-item black-text">
+                        {{ item.text }}
+                        {% if item.url != "#!" %}
+                        <span class="badge custom1 white-text">{{ item.button }}</span>
+                        {% endif %}
+                    </li>
+                    {% for item2 in item.subpoints %}
+                    <li class="collection-item black-text custom1 lighten-5">
+                        {{ item2.text }}
 
- </article>
+                    </li>
+                    {% endfor %}
+                    {% endfor %}
+                </ul>
+            </div>
+
+        </article>
 
     </div>
 </div>
-

@@ -1,4 +1,5 @@
 {% assign navurl = page.url | remove: 'index.html' %}
+
 {% for item in include.nav %}
     {% if item.subitems %}
     <ul id="dropdown-{{ item.slug }}" class="dropdown-content">
@@ -23,7 +24,7 @@
           </li>
           {% else %}
             <li>
-                <a 
+                <a
                    {% if item.url contains "http://" %}
                       href="{{ item.url }}" target="_blank"
                    {% else %}
@@ -61,7 +62,7 @@
                 </ul>
                 </li>
                 {% else %}
-                <li><a 
+                <li><a
                    {% if item.url contains "http://" %}
                       href="{{ item.url }}" target="_blank"
                    {% else %}
