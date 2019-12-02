@@ -8,13 +8,16 @@ slideshow:
   - img: img/slide/tipo.jpg
   - img: img/slide/cibo.jpg
 
-institutions:
-    - name: "Physics Department of Trento"
-      website: "http://www.physics.unitn.it/en"
-      logo: "img/sponsors/logodipfisica.jpg"
-    - name: "FBK"
-      website: "https://www.fbk.eu/en/"
-      logo: "img/sponsors/logofbk.png"
-    - name: "IQOQI"
-      website: "https://www.iqoqi.at/en/"
-      logo: "img/sponsors/logoiqoqi.jpg"
+
+cards:
+    - size: "small"
+      items:
+        - title: "Physics Department of Trento"
+          site: "http://www.physics.unitn.it/en"
+          img: "img/sponsors/logodipfisica.jpg"
+        - title: "FBK"
+          site: "https://www.fbk.eu/en/"
+          img: "img/sponsors/logofbk.png"
+        - title: "IQOQI"
+          site: "https://www.iqoqi.at/en/"
+          img: "img/sponsors/logoiqoqi.jpg"
