@@ -97,6 +97,15 @@ img .fullwidth { /* non funziona, perché? */
     height: 100%;
 }
 
+.schedule-day{
+    font-size:16pt;
+margin: 1.0933333333rem 0 0.656rem 0;
+}
+.schedule-day i.material-icons{
+    font-size:20pt;
+    margin-right: 5px;
+}
+
 span {
     text-align: justify;
 }

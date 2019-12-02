@@ -28,8 +28,16 @@ layout: default
                 </div>
                 <div class="card-content white">
                     {% for item in site.data.programme.schedule %}
-                    <div id="{{item.day}}" class="col s12">
-                        <h5>{{ item.day }} {{ item.date }}</h5>
+                    <div id="{{item.day}}">
+                        <div class="row">
+                            <div class="col l6 m12">
+                                <h5 class="custom1-text">{{ item.day }} {{ item.date }}</h5>
+                            </div>
+                            <div class="col l6 m12 right-align schedule-day">
+                                <i class="material-icons">room</i>
+                                {{item.location}}
+                            </div>
+                        </div>
                         <ul class="collapsible">
                             {% for act in item.activity %}
                                 <li>

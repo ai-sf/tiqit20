@@ -5,9 +5,9 @@
         {% if section.info %}
             <p>{{ section.info }}<p>
         {% endif %}
-        <div class="collection">
+        <ul class="collection">
             {% for item in section.points %}
-                <a
+                <li
                     {% if item.url %}
                         {% if item.url contains "http://" %}
                             href="{{ item.url }}"
@@ -15,18 +15,22 @@
                             href="{{ site.url }}/{{ item.url }}"
                         {% endif %}
                     {% endif %}
-                class="collection-item black-text">
-                    {{ item.text }}
+                class="collection-item row black-text valign-wrapper">
+                    <div class="col {% if item.url %} s10 {% else %} s12 {% endif %}">
+                        {{ item.text }}
+                    </div>
                     {% if item.url %}
-                        <span class="badge custom1 white-text">
+                    <div class="col s2">
+                        <div class="chip custom1 white-text">
                             {% if item.button %}
                                 {{ item.button }}
                             {% else %}
                                 Link
                             {% endif %}
-                        </span>
+                        </div>
+                    </div>
                     {% endif %}
-                </a>
+                </li>
                 {% for subitem in item.subpoints %}
                     <a
                         {% if subitem.url %}
@@ -52,7 +56,7 @@
                     </a>
                 {% endfor %}
             {% endfor %}
-        </div>
+        </ul>
     </div>
 {% endfor %}
 {% endif %}
