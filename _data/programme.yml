@@ -29,13 +29,13 @@ schedule:
         location:
             name: "Physics Department"
             tag: "physunitn"
-            room: "A204"
+            room: "Room ???"
       - hour: "11:30"
         name: "Plenary Lecture"
         location:
             name: "Physics Department"
             tag: "physunitn"
-            room: "A204"
+            room: "Room ???"
       - hour: "13:00"
         name: "Lunch"
         location:
@@ -53,7 +53,7 @@ schedule:
         location:
             name: "Physics Department"
             tag: "physunitn"
-            room: "A204"
+            room: "Room ???"
 
       - hour: "15.00"
         name: "Talk by dott. S. Azzini"
@@ -66,7 +66,7 @@ schedule:
         location:
             name: "Physics Department"
             tag: "physunitn"
-            room: "A204"
+            room: "Room ???"
 
       - hour: "15.30"
         name: "Talk by S. Signorini"
@@ -79,14 +79,14 @@ schedule:
         location:
             name: "Physics Department"
             tag: "physunitn"
-            room: "A204"
+            room: "Room ???"
 
       - hour: "16:00"
         name: "Coffee Break"
         location:
             name: "Physics Department"
             tag: "physunitn"
-            room: "Atrium"
+            room: "Room ???"
       - hour: "16:30"
         name: "Visit to NanoLab laboratories"
         location:
@@ -99,7 +99,7 @@ schedule:
         location:
             name: "Physics Department"
             tag: "physunitn"
-            room: "Atrium"
+            room: "Room ???"
 
       - hour: "19:30"
         name: "Social Dinner"
@@ -122,7 +122,7 @@ schedule:
         location:
             name: "Physics Department"
             tag: "physunitn"
-            room: "Atrium"
+            room: "Room ???"
       - hour: "11:00"
         name: "Visit to FBK"
         location:
@@ -134,20 +134,20 @@ schedule:
         location:
             name: "FBK"
             tag: "fbk"
-            room: "Canteen"
+            room: "Room ???"
       - hour: "14:00"
         name: "Plenary lecture with the BEC group"
         location:
             name: "Physics Department"
             tag: "physunitn"
-            room: "A204"
+            room: "Room ???"
         group: "BEC"
       - hour: "15:30"
         name: "Coffee break"
         location:
             name: "Physics Department"
             tag: "physunitn"
-            room: "Atrium"
+            room: "Room ???"
       - hour: "16:00"
         name: "BEC lab tour"
         group: "BEC"
@@ -160,13 +160,13 @@ schedule:
         location:
             name: "Physics Department"
             tag: "physunitn"
-            room: "A204"
+            room: "Room ???"
       - hour: "18:45"
         name: "Buffet"
         location:
             name: "Physics Department"
             tag: "physunitn"
-            room: "Atrium"
+            room: "Room ???"
       - hour: "20:00"
         name: "Free night"
         details: none
@@ -187,43 +187,43 @@ schedule:
         location:
             name: "IQOQI"
             tag: "iqoqi"
-            room: "Laboratories"
+            room: "Room ???"
       - hour: "10:30"
         name: "Coffee break"
         location:
             name: "IQOQI"
             tag: "iqoqi"
-            room: "Atrium"
+            room: "Room ???"
       - hour: "11:00"
         name: "Plenary lecture"
         location:
             name: "IQOQI"
             tag: "iqoqi"
-            room: "Room 2"
+            room: "Room ???"
       - hour: "12:30"
         name: "Lunch"
         location:
             name: "IQOQI"
             tag: "iqoqi"
-            room: "Canteen"
+            room: "Room ???"
       - hour: "14:00"
         name: "Plenary lecture"
         location:
             name: "IQOQI"
             tag: "iqoqi"
-            room: "Room 2"
+            room: "Room ???"
       - hour: "15:30"
         name: "Coffee break"
         location:
             name: "IQOQI"
             tag: "iqoqi"
-            room: "Atrium"
+            room: "Room ???"
       - hour: "16:00"
         name: "Lab Tour at IQOQI (Part II)"
         location:
             name: "IQOQI"
             tag: "iqoqi"
-            room: "Laboratories"
+            room: "Room ???"
       - hour: "18:00"
         name: "Check in at the hotel"
         location:
@@ -245,19 +245,19 @@ schedule:
         location:
             name: "University of Innsbruck"
             tag: "uniinn"
-            room: "Room A"
+            room: "Room ???"
       - hour: "10:30"
         name: "Coffee break"
         location:
             name: "University of Innsbruck"
             tag: "uniinn"
-            room: "Atrium"
+            room: "Room ???"
       - hour: "11:00"
         name: "University of Innsbruck Lab Tour"
         location:
             name: "University of Innsbruck"
             tag: "uniinn"
-            room: "Laboratories"
+            room: "Room ???"
       - hour: "13:00"
         name: "Pizza lunch with the students of Innsbruck"
         location:
@@ -268,7 +268,7 @@ schedule:
         location:
             name: "University of Innsbruck"
             tag: "uniinn"
-            room: "Aula Magna"
+            room: "Room ???"
       - hour: "15:30"
         name: "Bus to Trento"
         details: none
