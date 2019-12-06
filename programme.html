@@ -97,36 +97,34 @@ layout: default
                                                      {% endif %}
                                             {% endif %}
                                         {% endif %}
-                                        {% if act.people %}
+                                        {% if act.subactivities %}
                                             <div class="row">
                                                 <div class="col s1 right-align">
                                                     <i class="material-icons">person</i>
                                                 </div>
                                                 <div class="col s11">
-                                                    {{act.people.name}}
+                                                    Talks
                                                 </div>
                                             </div>
+
+                                            {% for sub in act.subactivities %}
+                                                <div class="row">
+                                                    <div class="col s6 m4 offset-s1 offset-m1">{{sub.people.name}}</div>
+                                                    <div class="col s6 m7">{{sub.title}}</div>
+                                                {% if sub.abstract %}
+                                                    <div class="row">
+                                                        <div class="col s1 right-align">
+                                                            <i class="material-icons">description</i>
+                                                        </div>
+                                                        <div class="col s11">
+                                                            {{act.abstract}}
+                                                        </div>
+                                                    </div>
+                                                    {% endif %}
+                                                </div>
+                                            {% endfor %}
                                         {% endif %}
-                                        {% if act.group %}
-                                            <div class="row">
-                                                <div class="col s1 right-align">
-                                                    <i class="material-icons">group</i>
-                                                </div>
-                                                <div class="col s11">
-                                                    {{act.group}}
-                                                </div>
-                                            </div>
-                                        {% endif %}
-                                        {% if act.abstract %}
-                                            <div class="row">
-                                                <div class="col s1 right-align">
-                                                    <i class="material-icons">description</i>
-                                                </div>
-                                                <div class="col s11">
-                                                    {{act.abstract}}
-                                                </div>
-                                            </div>
-                                        {% endif %}
+
                                     </div>
                                 </li>
                             {% endfor %}

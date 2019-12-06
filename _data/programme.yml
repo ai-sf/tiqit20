@@ -29,13 +29,13 @@ schedule:
         location:
             name: "Physics Department"
             tag: "physunitn"
-            room: "Room ???"
+            room: "Room TBD"
       - hour: "11:30"
         name: "Plenary Lecture"
         location:
             name: "Physics Department"
             tag: "physunitn"
-            room: "Room ???"
+            room: "Room TBD"
       - hour: "13:00"
         name: "Lunch"
         location:
@@ -53,7 +53,7 @@ schedule:
         location:
             name: "Physics Department"
             tag: "physunitn"
-            room: "Room ???"
+            room: "Room TBD"
 
       - hour: "15.00"
         name: "Talk by dott. S. Azzini"
@@ -66,7 +66,7 @@ schedule:
         location:
             name: "Physics Department"
             tag: "physunitn"
-            room: "Room ???"
+            room: "Room TBD"
 
       - hour: "15.30"
         name: "Talk by S. Signorini"
@@ -79,14 +79,14 @@ schedule:
         location:
             name: "Physics Department"
             tag: "physunitn"
-            room: "Room ???"
+            room: "Room TBD"
 
       - hour: "16:00"
         name: "Coffee Break"
         location:
             name: "Physics Department"
             tag: "physunitn"
-            room: "Room ???"
+            room: "Room TBD"
       - hour: "16:30"
         name: "Visit to NanoLab laboratories"
         location:
@@ -99,7 +99,7 @@ schedule:
         location:
             name: "Physics Department"
             tag: "physunitn"
-            room: "Room ???"
+            room: "Room TBD"
 
       - hour: "19:30"
         name: "Social Dinner"
@@ -112,17 +112,31 @@ schedule:
     location: "Trento"
     activity:
       - hour: "9:00"
-        name: "Plenary lecture"
+        name: "Lectures by BEC Group (Part I)"
+        group: "BEC"
         location:
             name: "Physics Department"
             tag: "physunitn"
-            room: "A204"
-      - hour: "10:30"
-        name: "Coffee break"
-        location:
-            name: "Physics Department"
-            tag: "physunitn"
-            room: "Room ???"
+            room: "Room TBD"
+        subactivities:
+          - title: "Introduction to superfluidity in quantum gases"
+            people:
+                name: "prof. Franco Dalfovo"
+                tag: "dalfovo"
+          - title: "Production and observation of a BEC"
+            people:
+                name: "prof. Giacomo Lamporesi"
+                tag: "lamporesi"
+
+          - title: "Supersolids and quantum droplets"
+            people:
+                name: "prof. Alessio Recati"
+                tag: "recati"
+          - title: "Analog gravity with cold atoms and photons"
+            people:
+                name: "prof. Iacopo Carusotto"
+                tag: "carusotto"
+
       - hour: "11:00"
         name: "Visit to FBK"
         location:
@@ -134,20 +148,38 @@ schedule:
         location:
             name: "FBK"
             tag: "fbk"
-            room: "Room ???"
+            room: "Room TBD"
       - hour: "14:00"
-        name: "Plenary lecture with the BEC group"
+        name: "Lectures by BEC Group (Part II)"
+        group: "BEC"
         location:
             name: "Physics Department"
             tag: "physunitn"
-            room: "Room ???"
-        group: "BEC"
+            room: "Room TBD"
+        subactivities:
+          - title: "Simulating lattice gauge theories with neutral atoms"
+            people:
+                name: "prof. Philipp Hauke"
+                tag: "hauke"
+          - title: "QCD physics with superfluid mixtures"
+            people:
+                name: "prof. Gabriele Ferrari"
+                tag: "ferrari"
+          - title: "Montecarlo simulation of low-dimensional gases"
+            group: "BEC"
+            people:
+                name: "prof. Stefano Giorgini"
+                tag: "giorgini"
+          - title: "Optical lattices and synthetic dimensions"
+            people:
+                name: "prof. Dimitrios Trypogeorgos"
+                tag: "trypogeorgos"
       - hour: "15:30"
         name: "Coffee break"
         location:
             name: "Physics Department"
             tag: "physunitn"
-            room: "Room ???"
+            room: "Room TBD"
       - hour: "16:00"
         name: "BEC lab tour"
         group: "BEC"
@@ -160,13 +192,13 @@ schedule:
         location:
             name: "Physics Department"
             tag: "physunitn"
-            room: "Room ???"
+            room: "Room TBD"
       - hour: "18:45"
         name: "Buffet"
         location:
             name: "Physics Department"
             tag: "physunitn"
-            room: "Room ???"
+            room: "Room TBD"
       - hour: "20:00"
         name: "Free night"
         details: none
@@ -187,43 +219,43 @@ schedule:
         location:
             name: "IQOQI"
             tag: "iqoqi"
-            room: "Room ???"
+            room: "Room TBD"
       - hour: "10:30"
         name: "Coffee break"
         location:
             name: "IQOQI"
             tag: "iqoqi"
-            room: "Room ???"
+            room: "Room TBD"
       - hour: "11:00"
         name: "Plenary lecture"
         location:
             name: "IQOQI"
             tag: "iqoqi"
-            room: "Room ???"
+            room: "Room TBD"
       - hour: "12:30"
         name: "Lunch"
         location:
             name: "IQOQI"
             tag: "iqoqi"
-            room: "Room ???"
+            room: "Room TBD"
       - hour: "14:00"
         name: "Plenary lecture"
         location:
             name: "IQOQI"
             tag: "iqoqi"
-            room: "Room ???"
+            room: "Room TBD"
       - hour: "15:30"
         name: "Coffee break"
         location:
             name: "IQOQI"
             tag: "iqoqi"
-            room: "Room ???"
+            room: "Room TBD"
       - hour: "16:00"
         name: "Lab Tour at IQOQI (Part II)"
         location:
             name: "IQOQI"
             tag: "iqoqi"
-            room: "Room ???"
+            room: "Room TBD"
       - hour: "18:00"
         name: "Check in at the hotel"
         location:
@@ -245,19 +277,19 @@ schedule:
         location:
             name: "University of Innsbruck"
             tag: "uniinn"
-            room: "Room ???"
+            room: "Room TBD"
       - hour: "10:30"
         name: "Coffee break"
         location:
             name: "University of Innsbruck"
             tag: "uniinn"
-            room: "Room ???"
+            room: "Room TBD"
       - hour: "11:00"
         name: "University of Innsbruck Lab Tour"
         location:
             name: "University of Innsbruck"
             tag: "uniinn"
-            room: "Room ???"
+            room: "Room TBD"
       - hour: "13:00"
         name: "Pizza lunch with the students of Innsbruck"
         location:
@@ -268,7 +300,7 @@ schedule:
         location:
             name: "University of Innsbruck"
             tag: "uniinn"
-            room: "Room ???"
+            room: "Room TBD"
       - hour: "15:30"
         name: "Bus to Trento"
         details: none
