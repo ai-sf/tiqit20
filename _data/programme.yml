@@ -20,10 +20,10 @@ schedule:
     location: "Trento"
     activity:
       - hour: "9:00"
-        name: "Check-in in Trento"
+        name: "Accreditation in Trento"
         location:
-            name: "Hostel Giovane Europa"
-            tag: "hosteltrento"
+            name: "Physics Department"
+            tag: "physunitn"
       - hour: "11:00"
         name: "Open cerimony"
         location:
@@ -102,7 +102,7 @@ schedule:
             room: "Room TBD"
 
       - hour: "19:30"
-        name: "Social Dinner"
+        name: "Dinner (optional)"
         location:
             name: "La Rosa D'Oro"
             tag: "rosadoro"
