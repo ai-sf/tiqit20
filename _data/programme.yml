@@ -20,10 +20,10 @@ schedule:
     location: "Trento"
     activity:
       - hour: "9:00"
-        name: "Check-in in Trento"
+        name: "Accreditation"
         location:
-            name: "Hostel Giovane Europa"
-            tag: "hosteltrento"
+            name: "Department of Physics"
+            tag: "physunitn"
       - hour: "11:00"
         name: "Open cerimony"
         location:
@@ -95,14 +95,13 @@ schedule:
             room: "NanoLab laboratories"
 
       - hour: "18:30"
-        name: "Break"
+        name: "Check-in"
         location:
-            name: "Physics Department"
-            tag: "physunitn"
-            room: "Room TBD"
+            name: "Hostel 'Giovane Europa'"
+            tag: "hosteltrento"
 
       - hour: "19:30"
-        name: "Social Dinner"
+        name: "Social Dinner (optional)"
         location:
             name: "La Rosa D'Oro"
             tag: "rosadoro"
@@ -136,7 +135,11 @@ schedule:
             people:
                 name: "prof. Iacopo Carusotto"
                 tag: "carusotto"
-
+      - hour: "10:45"
+        name: "Coffee break"
+        location:
+            name: "Physics Department"
+            tag: "physunitn"
       - hour: "11:00"
         name: "Visit to FBK"
         location:
@@ -194,12 +197,12 @@ schedule:
             tag: "physunitn"
             room: "Room TBD"
       - hour: "18:45"
-        name: "Buffet"
+        name: "Dinner buffet"
         location:
             name: "Physics Department"
             tag: "physunitn"
             room: "Room TBD"
-      - hour: "20:00"
+      - hour: "21:00"
         name: "Free night"
         details: none
   - day: "Wednesday"
@@ -260,7 +263,7 @@ schedule:
         name: "Check in at the hotel"
         location:
             name: "Hotel Tautermann"
-            tag: "hotelinnsbruck"
+            tag: "hotel_innsbruck"
       - hour: "19:30"
         name: "Social Dinner"
         location:
@@ -314,13 +317,14 @@ sections:
     - text: "In order to sign up for the event you must be an AISF or IAPS member"
     - text: "Participation fee is different whether you want to stay at the Hostel in Trento or not"
       subpoints:
-        - text: "Fee is 50€ without accomodation in Trento"
+        - text: "Fee is 50€ without accomodation in Trento (limited seats)"
         - text: "Fee is 80€ with included accomodation in Trento at Hostel for the night of Monday and Tuesday"
-    - text: "Such fee will cover the social dinners of Monday and Wednesday, every lunch, local transportation in Trento, the bus to and from Innsbruck and the accomodation in Innsbruck"
-    - text: "Participants who need to arrive and sleep in Trento on Sunday 22nd can request to book an extra night at the hostel, by adding to the fee 21,50€."
+    - text: "Such fee will cover the social dinners of Wednesday, every lunch, local transportation in Trento, the bus to and from Innsbruck and the accomodation in Innsbruck"
+    - text: "Participants who need to arrive and sleep in Trento on Sunday 22nd and/or Thursday 26th can request to book an extra night at the hostel, by adding to the fee 21,50€."
     - text: "Please notice that participation fees <b>does not cover</b> the following:"
       subpoints:
         - text: "Breakfast if not included in the Hostel in Innsbruck"
+        - text: "Monday Dinner"
         - text: "Insurance"
     - text: "Note: if you are Italian and you are not an AISF member yet you can become an AISF member while registering for this event."
     - text: "Please note that unfortunately we are not able to provide scholarships and/or bursaries for any students at this time."

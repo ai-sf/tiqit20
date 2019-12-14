@@ -40,3 +40,9 @@ cards:
         descr: "Accomodation in Trento will be provided at the Hostel Giovane Europa, Via Torre Vanga, 9- 38122 Trento"
         site: "https://www.visittrentino.info/it/trento/ostelli/ostello-giovane-europa_dr201316l"
         map: "https://www.google.com/maps?daddr=VIA+TORRE+VANGA,+9++38122+TRENTO++IT+@46.0701,+11.1193"
+      - img: img/facilities/hotel_innsbruck.jpg
+        title: Hotel Tautermann
+        tag: "hotel_innsbruck"
+        descr: "Accomodation in Innsbruck will be provided at the Hotel Tautermann, Stamserfeld 5, Innsbruck."
+        site: "http://hotel-tautermann.at/en"
+        map: "https://www.google.com/maps/place//data=!4m2!3m1!1s0x479d6bf0d410e9ed:0xa228cc2dfb524e5d"
