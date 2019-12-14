@@ -20,15 +20,9 @@ schedule:
     location: "Trento"
     activity:
       - hour: "9:00"
-<<<<<<< HEAD
-        name: "Accreditation"
-        location:
-            name: "Department of Physics"
-=======
         name: "Accreditation in Trento"
         location:
             name: "Physics Department"
->>>>>>> 7e1dbe6f06e793eb296e91f99a1c36240fbaa3ef
             tag: "physunitn"
       - hour: "11:00"
         name: "Open cerimony"
@@ -107,11 +101,7 @@ schedule:
             tag: "hosteltrento"
 
       - hour: "19:30"
-<<<<<<< HEAD
         name: "Social Dinner (optional)"
-=======
-        name: "Dinner (optional)"
->>>>>>> 7e1dbe6f06e793eb296e91f99a1c36240fbaa3ef
         location:
             name: "La Rosa D'Oro"
             tag: "rosadoro"
