@@ -1,6 +1,6 @@
 
 cards:
-    - name: "Scientific bodies"
+    - name: "Hosts"
       zoom: true
       items:
         - img: img/facilities/trento.jpg
