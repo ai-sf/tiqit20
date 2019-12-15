@@ -46,3 +46,16 @@ cards:
         descr: "Accomodation in Innsbruck will be provided at the Hotel Tautermann, Stamserfeld 5, Innsbruck."
         site: "http://hotel-tautermann.at/en"
         map: "https://www.google.com/maps/place//data=!4m2!3m1!1s0x479d6bf0d410e9ed:0xa228cc2dfb524e5d"
+
+    - name: "Research Groups"
+      zoom: false
+      size: "small"
+      items:
+        - img: img/facilities/bec.jpg
+          title: "BEC"
+          tag: "bec"
+          site: "http://bec.science.unitn.it/"
+        - img: img/facilities/nanolab.jpg
+          title: "NanoLab"
+          tag: "nanolab"
+          site: "http://nanolab.physics.unitn.it/"
