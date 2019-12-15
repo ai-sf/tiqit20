@@ -43,43 +43,29 @@ schedule:
             tag: "physunitn"
 
       - hour: "14:30"
-        name: "Talk by prof. L. Pavesi"
-        title: "Quantum Science and Technologies: a successful example"
-        abstract: "Starting from the second quantum revolution, the key ingredients of quantum physics essential for developing new kind of devices are discussed. A specific example of device in quantum security will be described."
+        name: "Lectures by NanoLab Group"
         group: "NanoLab"
-        people:
-            name: "prof. Lorenzo Pavesi"
-            tag: "pavesi"
         location:
             name: "Physics Department"
             tag: "physunitn"
             room: "Room TBD"
+        subactivities:
+          - title: "Quantum Science and Technologies: a successful example"
+            abstract: "Starting from the second quantum revolution, the key ingredients of quantum physics essential for developing new kind of devices are discussed. A specific example of device in quantum security will be described."
+            people:
+                name: "prof. Lorenzo Pavesi"
+                tag: "pavesi"
+          - title: "Single particle entanglement: where quantum and classical physics clashes"
+            abstract: "During the talk a definition of entanglement and the methods to assess the entanglement will be described. By using the single particle entanglement, the inherent differences between classical physics and quantum physics (non-locality and contestuality) well be derived."
+            people:
+                name: "dott. Stefano Azzini"
+                tag: "azzini"
 
-      - hour: "15.00"
-        name: "Talk by dott. S. Azzini"
-        title: "Single particle entanglement: where quantum and classical physics clashes"
-        abstract: "During the talk a definition of entanglement and the methods to assess the entanglement will be described. By using the single particle entanglement, the inherent differences between classical physics and quantum physics (non-locality and contestuality) well be derived."
-        group: "NanoLab"
-        people:
-            name: "dott. Stefano Azzini"
-            tag: "azzini"
-        location:
-            name: "Physics Department"
-            tag: "physunitn"
-            room: "Room TBD"
-
-      - hour: "15.30"
-        name: "Talk by S. Signorini"
-        title: "Heralded single photon sources: who, where, what, when and why"
-        abstract: "The sources of entangled two photons and of heralded single photons are described to show the advantages of integrated quantum photonics and where the field is evolving."
-        group: "NanoLab"
-        people:
-            name: "dott. Stefano Signorini"
-            tag: "signorini"
-        location:
-            name: "Physics Department"
-            tag: "physunitn"
-            room: "Room TBD"
+          - title: "Heralded single photon sources: who, where, what, when and why"
+            abstract: "The sources of entangled two photons and of heralded single photons are described to show the advantages of integrated quantum photonics and where the field is evolving."
+            people:
+                name: "dott. Stefano Signorini"
+                tag: "signorini"
 
       - hour: "16:00"
         name: "Coffee Break"
@@ -315,7 +301,7 @@ sections:
   - name: "Partecipation fee and requirements"
     points:
     - text: "In order to sign up for the event you must be an AISF or IAPS member"
-    - text: "Participation fee is different whether you want to stay at the Hostel in Trento or not"
+    - text: "Participation fee is different whether you need the accommodation both in Trento and Innsbruck or only one of them:"
       subpoints:
         - text: "Fee is 50€ without accomodation in Trento or Innsbruck (limited spots)"
         - text: "Fee is 80€ with included accomodation in Trento at Hostel for the night of Monday and Tuesday and in Innsbruck for the night of Wednesday"

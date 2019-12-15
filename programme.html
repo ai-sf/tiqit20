@@ -110,17 +110,17 @@ layout: default
                                             {% for sub in act.subactivities %}
                                                 <div class="row">
                                                     <div class="col s6 m4 offset-s1 offset-m1">{{sub.people.name}}</div>
-                                                    <div class="col s6 m7">{{sub.title}}</div>
-                                                {% if sub.abstract %}
-                                                    <div class="row">
-                                                        <div class="col s1 right-align">
-                                                            <i class="material-icons">description</i>
+                                                    <div class="col s6 m7">
+                                                        <div class="bold">
+                                                            {{sub.title}}
                                                         </div>
-                                                        <div class="col s11">
-                                                            {{act.abstract}}
-                                                        </div>
+                                                        {% if sub.abstract %}
+                                                            <div class="italic">
+                                                                {{sub.abstract}}
+                                                            </div>
+                                                        {% endif %}
                                                     </div>
-                                                    {% endif %}
+
                                                 </div>
                                             {% endfor %}
                                         {% endif %}
