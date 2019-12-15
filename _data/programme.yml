@@ -36,6 +36,12 @@ schedule:
             name: "Physics Department"
             tag: "physunitn"
             room: "Room TBD"
+        subactivities:
+            -  title: "Hybrid quantum-classical algorithms for solving optimization problems"
+               abstract: "The hybrid approach to quantum computing combines quantum operations and classical processing to maximize the efficiency of existing quantum hardware. In this talk I will present an overview on hybrid quantum-classical algorithms and some recent results in this area about quantum annealing and adiabatic quantum computing."
+               people:
+                   name: "dott. Davide Pastorello"
+                   tag: "pastorello"
       - hour: "13:00"
         name: "Lunch"
         location:
