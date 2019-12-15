@@ -44,7 +44,7 @@ schedule:
 
       - hour: "14:30"
         name: "Lectures by NanoLab Group"
-        group: "NanoLab"
+        group: "nanolab"
         location:
             name: "Physics Department"
             tag: "physunitn"
@@ -75,6 +75,7 @@ schedule:
             room: "Room TBD"
       - hour: "16:30"
         name: "Visit to NanoLab laboratories"
+        group: "nanolab"
         location:
             name: "Physics Department"
             tag: "physunitn"
@@ -98,7 +99,7 @@ schedule:
     activity:
       - hour: "9:00"
         name: "Lectures by BEC Group (Part I)"
-        group: "BEC"
+        group: "bec"
         location:
             name: "Physics Department"
             tag: "physunitn"
@@ -140,7 +141,7 @@ schedule:
             room: "Room TBD"
       - hour: "14:00"
         name: "Lectures by BEC Group (Part II)"
-        group: "BEC"
+        group: "bec"
         location:
             name: "Physics Department"
             tag: "physunitn"
@@ -155,7 +156,7 @@ schedule:
                 name: "prof. Gabriele Ferrari"
                 tag: "ferrari"
           - title: "Montecarlo simulation of low-dimensional gases"
-            group: "BEC"
+            group: "bec"
             people:
                 name: "prof. Stefano Giorgini"
                 tag: "giorgini"
@@ -171,7 +172,7 @@ schedule:
             room: "Room TBD"
       - hour: "16:00"
         name: "BEC lab tour"
-        group: "BEC"
+        group: "bec"
         location:
             name: "Physics Department"
             tag: "physunitn"

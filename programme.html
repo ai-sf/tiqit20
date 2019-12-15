@@ -97,6 +97,30 @@ layout: default
                                                      {% endif %}
                                             {% endif %}
                                         {% endif %}
+                                        {% if act.group %}
+                                            {% assign photo =  "img/facilities/gen.jpg" %}
+                                            {% assign disp =  "Group" %}
+                                            {% for x in site.data.facilities.cards %}
+                                                {% for y in x.items %}
+                                                    {% if y.tag == act.group %}
+                                                        {% assign photo = y.img%}
+                                                        {% assign disp = y.title %}
+                                                    {% endif %}
+                                                {% endfor %}
+                                            {% endfor %}
+                                            <div class="row">
+                                                <div class ="col s1 right-align">
+                                                    <i class="material-icons">school</i>
+                                                </div>
+                                                <div class="col s11">
+                                                <a class="chip hoverable" href="{{site.url}}/facilities/#{{act.group}}">
+                                                    <img src="{{site.url}}/{{photo}}" alt="Contact Person">
+                                               {{disp}}
+                                             </a>
+                                             </div>
+                                             </div>
+
+                                        {% endif %}
                                         {% if act.subactivities %}
                                             <div class="row">
                                                 <div class="col s1 right-align">
