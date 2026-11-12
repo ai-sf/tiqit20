@@ -13,7 +13,7 @@ sections:
       points:
         - text: "In order to enroll to the event you must be an IAPS member."
         - text: "Note: if you are Italian and you are not an IAPS/AISF member yet you can become an AISF member while registering for this event: you need to fill in this module and after being selected make a single payment including both the quotes. Being an AISF member you also get the membership to IAPS "
-          url: "http://ai-sf.it/iscrizione"
+          url: "https://ai-sf.it/iscrizione"
           button: Form
         - text: "40 places are available, of whom approximately half will be for AISF members.
                  <br>The selected candidates will have to cover a participation fee of €80.
